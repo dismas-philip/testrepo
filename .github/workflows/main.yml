@@ -18,6 +18,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: files.000webhost.com
+        server: averment.com
         username: gulioni
         password: ${{ secrets.ftp_password }}    
