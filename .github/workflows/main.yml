@@ -18,6 +18,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: 172.32.1.10
+        server: 41.59.90.210
         username: maliasili
         password: ${{ secrets.ftp_password }}    
